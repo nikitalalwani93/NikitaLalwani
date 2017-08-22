@@ -1,0 +1,37 @@
+# Version: 10.14.0.18 (d15-4: 35e19853)
+# [first argument, ignore] # --cache
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.14.0.18/lib/mtouch/mtouch.exe \
+	/Users/rogersmsirfp3.0/Desktop/ToDoListPOC/StoryboardTable/obj/iPhoneSimulator/Debug/device-builds/iphone9.2-10.3.1/mtouch-cache \
+	--sim \
+	/Users/rogersmsirfp3.0/Desktop/ToDoListPOC/StoryboardTable/bin/iPhoneSimulator/Debug/device-builds/iphone9.2-10.3.1/StoryboardTable.app \
+	--executable \
+	StoryboardTable \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	10.3 \
+	--targetver \
+	9.0 \
+	--aot-options=-O=-float32 \
+	--http-message-handler=HttpClientHandler \
+	--abi=x86_64 \
+	--symbollist \
+	/Users/rogersmsirfp3.0/Desktop/ToDoListPOC/StoryboardTable/obj/iPhoneSimulator/Debug/device-builds/iphone9.2-10.3.1/mtouch-symbols.list \
+	--dsym=no \
+	--gcc_flags \
+	'-Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/rogersmsirfp3.0/Desktop/ToDoListPOC/StoryboardTable/obj/iPhoneSimulator/Debug/device-builds/iphone9.2-10.3.1/Entitlements.xcent' \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	--target-framework \
+	'Xamarin.iOS,v1.0' \
+	/Users/rogersmsirfp3.0/Desktop/ToDoListPOC/StoryboardTable/bin/iPhoneSimulator/Debug/StoryboardTable.exe \
